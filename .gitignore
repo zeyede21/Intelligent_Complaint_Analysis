@@ -1,0 +1,45 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+
+# Virtual environment
+myenvv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files
+data/raw/
+data/processed/
+*.csv
+
+# Model & vector stores
+vector_store/
+*.pkl
+*.index
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and cache
+*.log
+*.tmp
+*.cache/
+
+# IDE/editor configs
+.vscode/
+.idea/
+
+# Environment/config files
+.env
+.env.local
+
+# Gradio/Streamlit cache
+.gradio/
+.streamlit/
